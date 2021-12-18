@@ -10,6 +10,19 @@ function users(data:any)
 console.warn(users({name: "Jeet",age: 20}))
 ```
 
+
+```
+function myNum(){
+    'stack load';
+    let num:any=99;        //if we'll not use 'let' or 'var' then it'll show an error
+    console.log(num);
+
+}
+myNum();
+```
+
+
+
 ```
 function add (a:any,b:any){
     console.log (a+b);
