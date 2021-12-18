@@ -17,3 +17,55 @@ function add (a:any,b:any){
 let add1=add (3,5);
 let add2=add (13,5);
 ```
+
+***Increment Operator***
+```
+class Counter {
+    
+    display(count:number) {
+        for(let i=1; i<=count; i++){
+            console.log(i);
+        }
+    }
+}
+
+let object1 = new Counter();
+object1.display(25);
+object1.display(9);
+```
+_Printing the even numbers upto the limit._
+
+
+```
+class Counter {
+    
+    display(count:number) {
+        for(let i=1; i<=count; i++){
+            while(i%2==0){
+                console.log(i);
+            }
+        }
+    }
+}
+
+let object1 = new Counter();
+object1.display(25);
+object1.display(9);
+```
+***Decrement Operator***
+
+
+```
+class Counter {
+    
+    display(count:number) {
+        for(let i=count; i>=1; i--){
+            console.log(i);
+        }
+    }
+}
+
+let object1 = new Counter();
+object1.display(18);
+object1.display(5);
+```
