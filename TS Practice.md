@@ -1,0 +1,19 @@
+##TS Practice:-
+
+
+```
+function users(data:any)
+{
+    return data
+}
+
+console.warn(users({name: "Jeet",age: 20}))
+```
+
+```
+function add (a:any,b:any){
+    console.log (a+b);
+}
+let add1=add (3,5);
+let add2=add (13,5);
+```
